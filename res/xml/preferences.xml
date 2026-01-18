@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <it.deviato.spotifuck.CustomPrefTitle app:enabled="false" app:summary="@string/app_version" app:title="@string/app_name" />
+    <PreferenceCategory app:title="@string/menu_cat_player">
+        <ListPreference app:defaultValue="disabled" app:entries="@array/aplay_entries" app:entryValues="@array/aplay_values" app:icon="@drawable/autoplay" app:key="APlayMode" app:title="@string/menu_ap_mode" app:useSimpleSummaryProvider="true" />
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/autoclose" app:key="CloseNowPlay" app:title="@string/menu_closenowplay" />
+        <SwitchPreference app:defaultValue="true" app:icon="@drawable/takecontrol" app:key="TakeControl" app:title="@string/menu_takecontrol" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/menu_cat_gui">
+        <ListPreference app:defaultValue="csshack" app:entries="@array/gui_entries" app:entryValues="@array/gui_values" app:icon="@drawable/guimode" app:key="GuiMode" app:title="@string/menu_guimode" app:useSimpleSummaryProvider="true" />
+        <SwitchPreference app:defaultValue="true" app:icon="@drawable/andauto" app:key="AndAuto" app:title="@string/menu_andauto" />
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/amoled" app:key="Amoled" app:title="@string/menu_amoled" />
+    </PreferenceCategory>
+    <Preference app:selectable="false" app:summary="@string/menu_endtext" />
+    <PreferenceCategory app:title="@string/menu_actions">
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/action" app:key="HPAP" app:title="@string/menu_hpap" />
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/action" app:key="HPAS" app:title="@string/menu_hpas" />
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/action" app:key="BTAP" app:title="@string/menu_btap" />
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/action" app:key="BTAS" app:title="@string/menu_btas" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/menu_cat_system">
+        <Preference app:icon="@drawable/clearcache" app:key="ClearCache" app:summary="@string/menu_clearcachesum" app:title="@string/menu_clearcache" />
+        <Preference app:icon="@drawable/cleardata" app:key="ClearData" app:summary="@string/menu_cleardatasum" app:title="@string/menu_cleardata" />
+        <SwitchPreference app:defaultValue="true" app:icon="@drawable/swipe" app:key="SwipeStop" app:title="@string/menu_swipestop" />
+        <ListPreference app:defaultValue="0" app:entries="@array/ashut_entries" app:entryValues="@array/ashut_values" app:icon="@drawable/autoshut" app:key="AutoShut" app:title="@string/menu_autoshut" app:useSimpleSummaryProvider="true" />
+        <ListPreference app:defaultValue="0" app:entries="@array/ashut_entries" app:entryValues="@array/ashut_values" app:icon="@drawable/autosleep" app:key="AutoSleep" app:title="@string/menu_autosleep" app:useSimpleSummaryProvider="true" />
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/forceportrait" app:key="ForcePortrait" app:title="@string/menu_forceportrait" />
+        <SwitchPreference app:defaultValue="false" app:icon="@drawable/language" app:key="ForceEn" app:summary="@string/menu_forceensum" app:title="@string/menu_forceen" />
+    </PreferenceCategory>
+</PreferenceScreen>

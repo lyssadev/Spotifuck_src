@@ -1,0 +1,20 @@
+version: 2.12.1
+apkFileName: Spotifuck_1.6.4.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 34
+  versionName: 1.6.4
+doNotCompress:
+- arsc
+- mp3
+- png
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

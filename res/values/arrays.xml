@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aplay_entries">
+        <item>@string/menu_ap_disabled</item>
+        <item>@string/menu_ap_onetime</item>
+        <item>@string/menu_ap_permanent</item>
+    </string-array>
+    <string-array name="aplay_values">
+        <item>disabled</item>
+        <item>onetime</item>
+        <item>permanent</item>
+    </string-array>
+    <string-array name="ashut_entries">
+        <item>@string/menu_as_disabled</item>
+        <item>@string/menu_as_10min</item>
+        <item>@string/menu_as_15min</item>
+        <item>@string/menu_as_20min</item>
+        <item>@string/menu_as_30min</item>
+        <item>@string/menu_as_45min</item>
+        <item>@string/menu_as_1h</item>
+        <item>@string/menu_as_1h30m</item>
+        <item>@string/menu_as_2h</item>
+        <item>@string/menu_as_3h</item>
+    </string-array>
+    <string-array name="ashut_values">
+        <item>0</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+    <string-array name="gui_entries">
+        <item>@string/menu_gm_csshack</item>
+        <item>@string/menu_gm_bigwindow</item>
+        <item>@string/menu_gm_none</item>
+    </string-array>
+    <string-array name="gui_values">
+        <item>csshack</item>
+        <item>bigwindow</item>
+        <item>none</item>
+    </string-array>
+</resources>
