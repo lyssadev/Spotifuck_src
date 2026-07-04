@@ -2,6 +2,8 @@
   <img src="art/1y.webp" alt="SpotiFuck Logo" width="200"/>
 </p>
 
+> **⚠️ ARCHIVED — This project is no longer maintained. The SpotiFuck app stopped working because Spotify patched the method used to play audio through a WebViewClient.**
+
 # SpotiFuck Source Code
 
 this repo documents the source code of spotifuck, an android app that works as a fake spotify web player without ads. the app is officially called "spotify web fake player (ad free)" and lets you listen to music without annoying advertisements.
