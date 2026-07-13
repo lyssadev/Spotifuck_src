@@ -1,8 +1,9 @@
+> [!WARNING]
+> **ARCHIVED — this project is no longer maintained. the spotifuck app stopped working because spotify patched this version. try the [spotilol](https://github.com/lyssadev/Spotilol) fork instead.**
+
 <p align="center">
   <img src="art/1y.webp" alt="SpotiFuck Logo" width="200"/>
 </p>
-
-> **⚠️ ARCHIVED — This project is no longer maintained. The SpotiFuck app stopped working because Spotify patched the method used to play audio through a WebViewClient.**
 
 # SpotiFuck Source Code
 
